@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'cursed_timer_ulilregular';
+    src: url('font/cursedtimerulil-aznm-webfont.woff2') format('woff2'),
+         url('font/cursedtimerulil-aznm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
     margin: 0;
     padding: 0;
