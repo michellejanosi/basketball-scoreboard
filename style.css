@@ -12,16 +12,33 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #1C244A;
+    text-align: center;
 }
 
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 40px;
     font-weight: 700;
+    line-height: 36px;
     color: #eee;
+    margin-bottom: 0;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+}
+
+.score {
+    font-family: 'cursed_timer_ulilregular';
+    background-color: #080001;
+    text-align: center;
+    color: #F94F6D;
+    height: 120px;
+    width: 120px;
+    font-size: 90px;
+    line-height: 140%;
+    margin: 20px;
+    padding: 2px 15px;
+    border-radius: 5px;
 }
