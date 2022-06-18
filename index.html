@@ -13,22 +13,22 @@
             <h3>HOME</h3>
             <h2 id="score-home" class="score">0</h2>
             <div class="btn-points">
-                <button class="btn">+1</button>
-                <button class="btn">+2</button>
-                <button class="btn">+3</button>
+                <button class="btn" onclick="scorePointHome(1)">+1</button>
+                <button class="btn" onclick="scorePointHome(2)">+2</button>
+                <button class="btn" onclick="scorePointHome(3)">+3</button>
             </div>
         </div>
         <div class="column">
             <h3>GUEST</h3>
             <h2 id="score-guest" class="score">0</h2>
             <div class="btn-points">
-                <button class="btn">+1</button>
-                <button class="btn">+2</button>
-                <button class="btn">+3</button>
+                <button class="btn" onclick="scorePointGuest(1)">+1</button>
+                <button class="btn" onclick="scorePointGuest(2)">+2</button>
+                <button class="btn" onclick="scorePointGuest(3)">+3</button>
             </div>
         </div>
     </div>
-    <button id="btn-new">NEW GAME</button>
+    <button id="btn-new" onclick="resetPoints()">NEW GAME</button>
     <script src="index.js"></script>
 </body>
 </html>
